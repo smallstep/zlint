@@ -24,8 +24,8 @@ CAs and Subscribers using such certificates do so at their own risk.
 import (
 	"time"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type sha1ExpireLong struct{}

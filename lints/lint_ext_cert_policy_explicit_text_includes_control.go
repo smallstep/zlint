@@ -27,8 +27,8 @@ normalized according to Unicode normalization form C (NFC) [NFC].
 *********************************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type controlChar struct{}

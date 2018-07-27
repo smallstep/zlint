@@ -22,8 +22,8 @@ contained in the Certificate’s subjectAltName extension (see Section 7.1.4.2.1
 ************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type subjectCommonNameNotFromSAN struct{}

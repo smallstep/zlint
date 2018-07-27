@@ -23,8 +23,8 @@ The issuer field identifies the entity that has signed and issued the
 ************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type issuerFieldEmpty struct{}

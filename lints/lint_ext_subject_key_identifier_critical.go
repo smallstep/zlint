@@ -20,8 +20,8 @@ RFC 5280: 4.2.1.2
 **********************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type subjectKeyIdCritical struct{}

@@ -17,8 +17,8 @@ package lints
 // "When present, conforming CAs SHOULD mark this extension as critical."
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type checkKeyUsageCritical struct{}

@@ -21,8 +21,8 @@ Authority Information Access
 //See also: BRs: 7.1.2.3 & CAB: 7.1.2.2
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type ExtAiaMarkedCritical struct{}

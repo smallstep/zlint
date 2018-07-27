@@ -19,8 +19,8 @@ Certificates MUST be of type X.509 v3.
 ************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type InvalidCertificateVersion struct{}

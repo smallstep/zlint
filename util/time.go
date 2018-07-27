@@ -18,7 +18,7 @@ import (
 	"encoding/asn1"
 	"time"
 
-	"github.com/zmap/zcrypto/x509"
+	"github.com/smallstep/zcrypto/x509"
 )
 
 var (

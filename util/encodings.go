@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/zmap/zcrypto/x509/pkix"
+	"github.com/smallstep/zcrypto/x509/pkix"
 )
 
 // CheckRDNSequenceWhiteSpace returns true if there is leading or trailing

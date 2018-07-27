@@ -21,8 +21,8 @@ Either the value id-kp-serverAuth [RFC5280] or id-kp-clientAuth [RFC5280] or bot
 *******************************************************************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type subExtKeyUsageClientOrServer struct{}

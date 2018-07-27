@@ -24,8 +24,8 @@ URL of the CA’s CRL service.
 import (
 	"strings"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type subCRLDistNoURL struct{}

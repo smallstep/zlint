@@ -23,8 +23,8 @@ ub-street-address INTEGER ::= 128
 import (
 	"unicode/utf8"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type subjectStreetAddressMaxLength struct{}

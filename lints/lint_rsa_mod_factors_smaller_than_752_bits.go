@@ -22,8 +22,8 @@ RSA: The CA SHALL confirm that the value of the public exponent is an odd number
 import (
 	"crypto/rsa"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type rsaModSmallFactor struct{}

@@ -22,8 +22,8 @@ scheme (e.g., "http" or "ftp") and a scheme-specific-part.
 import (
 	"net/url"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type IANURIFormat struct{}

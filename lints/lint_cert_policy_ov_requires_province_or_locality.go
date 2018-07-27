@@ -18,8 +18,8 @@ package lints
 // 7.1.4.2.2 applies only to subscriber certificates.
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type CertPolicyOVRequiresProvinceOrLocal struct{}

@@ -15,7 +15,7 @@
 package util
 
 import (
-	"github.com/zmap/zcrypto/x509"
+	"github.com/smallstep/zcrypto/x509"
 )
 
 // IsCACert returns true if c has IsCA set.

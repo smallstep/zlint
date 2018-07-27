@@ -21,8 +21,8 @@ If the Root CA Private Key is used for signing OCSP responses, then the digitalS
 ************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type caKeyUsageNotCrit struct{}

@@ -24,8 +24,8 @@ HTTP URL of the CA’s CRL service. See Section 13.2.1 for details.
 import (
 	"strings"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type subCertIssuerUrl struct{}

@@ -23,8 +23,8 @@ This extension MUST appear as a critical extension. The cA field MUST be set tru
 import (
 	"encoding/asn1"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type rootCaPathLenPresent struct{}

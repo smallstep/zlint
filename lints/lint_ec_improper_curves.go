@@ -23,8 +23,8 @@ ECC Curve: NIST P-256, P-384, or P-521
 import (
 	"crypto/ecdsa"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type ecImproperCurves struct{}

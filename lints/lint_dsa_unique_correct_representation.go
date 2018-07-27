@@ -18,8 +18,8 @@ import (
 	"crypto/dsa"
 	"math/big"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type dsaUniqueCorrectRepresentation struct{}

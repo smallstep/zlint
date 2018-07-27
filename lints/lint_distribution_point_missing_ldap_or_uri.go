@@ -22,8 +22,8 @@ When present, DistributionPointName SHOULD include at least one LDAP or HTTP URI
 import (
 	"strings"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type distribNoLDAPorURI struct{}

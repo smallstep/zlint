@@ -26,8 +26,8 @@ Address or Internal Name.
 import (
 	"net"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type subjectReservedIP struct{}

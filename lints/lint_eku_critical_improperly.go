@@ -28,8 +28,8 @@ If a CA includes extended key usages to satisfy such applications,
 ************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type ekuBadCritical struct{}

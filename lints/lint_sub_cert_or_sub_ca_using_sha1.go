@@ -20,8 +20,8 @@ SHA‐1	MAY	be	used	with	RSA	keys	in	accordance	with	the	criteria	defined	in	Sec
 **************************************************************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type sigAlgTestsSHA1 struct{}

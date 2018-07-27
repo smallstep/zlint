@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/zmap/zcrypto/x509"
+	"github.com/smallstep/zcrypto/x509"
 )
 
 func ReadCertificate(inPath string) *x509.Certificate {

@@ -27,8 +27,8 @@ If the subjectAltName extension is present, the sequence MUST contain
 ***********************************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type SANNoEntry struct{}

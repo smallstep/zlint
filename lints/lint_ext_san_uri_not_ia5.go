@@ -22,8 +22,8 @@ stored in the uniformResourceIdentifier (an IA5String).
 import (
 	"unicode"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type extSANURINotIA5 struct{}

@@ -17,7 +17,7 @@ package util
 import (
 	"encoding/asn1"
 
-	"github.com/zmap/zcrypto/x509/pkix"
+	"github.com/smallstep/zcrypto/x509/pkix"
 )
 
 type empty struct{}

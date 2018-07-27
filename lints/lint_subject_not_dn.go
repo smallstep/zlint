@@ -26,9 +26,9 @@ package lints
 import (
 	"reflect"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zcrypto/x509/pkix"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zcrypto/x509/pkix"
+	"github.com/smallstep/zlint/util"
 )
 
 type subjectDN struct{}

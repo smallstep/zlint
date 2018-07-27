@@ -21,8 +21,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/lints"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/lints"
 )
 
 const Version int64 = 3

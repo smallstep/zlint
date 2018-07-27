@@ -19,9 +19,9 @@ The freshest CRL extension identifies how delta CRL information is obtained. The
 ************************************************/
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zcrypto/x509/pkix"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zcrypto/x509/pkix"
+	"github.com/smallstep/zlint/util"
 )
 
 type ExtFreshestCrlMarkedCritical struct{}

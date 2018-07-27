@@ -28,8 +28,8 @@ An authorityInfoAccess extension may include multiple instances of
 import (
 	"strings"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type aiaNoHTTPorLDAP struct{}

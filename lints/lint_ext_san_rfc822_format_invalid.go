@@ -29,8 +29,8 @@ RFC 5280: 4.2.1.6
 import (
 	"strings"
 
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"github.com/smallstep/zcrypto/x509"
+	"github.com/smallstep/zlint/util"
 )
 
 type invalidEmail struct{}
