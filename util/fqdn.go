@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/weppos/publicsuffix-go/publicsuffix"
 	"github.com/smallstep/zcrypto/x509"
+	"github.com/weppos/publicsuffix-go/publicsuffix"
 )
 
 func RemovePrependedQuestionMarks(domain string) string {
